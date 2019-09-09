@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-KulcsSoftZuulServer<ks-zuul>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.ks.zuul.KulcsSoftZuulServer",
+            "projectName": "ks-zuul",
+            "args": ""
+        }
+    ]
+}
