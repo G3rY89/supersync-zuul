@@ -6,4 +6,4 @@ hystrix:
           thread:
             timeoutInMilliseconds: 15000
 ribbon:
-    ReadTimeout: 15000
+    ReadTimeout: 14000
