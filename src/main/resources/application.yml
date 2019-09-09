@@ -1,2 +1,9 @@
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 20000
 ribbon:
-    ReadTimeout: 14000
+    ReadTimeout: 19000
