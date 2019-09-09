@@ -3,7 +3,7 @@ hystrix:
     default:
       execution:
         timeout:
-          enabled: false
+          enabled: true
 
 ribbon:
     ConnectTimeout: 5000
