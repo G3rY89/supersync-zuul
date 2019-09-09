@@ -4,6 +4,6 @@ hystrix:
       execution:
         isolation:
           thread:
-            timeoutInMilliseconds: 32000
+            timeoutInMilliseconds: 60000
 ribbon:
     ReadTimeout: 32000
