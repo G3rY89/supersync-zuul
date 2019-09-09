@@ -7,3 +7,9 @@ hystrix:
             timeoutInMilliseconds: 60000
 ribbon:
     ReadTimeout: 32000
+zuul:
+  ignoredServices: "*"
+  routes:
+    transactions-api-service: 
+    path: ks-supersync-unasapi/**
+    serviceId: ks-supersync-unasapi
