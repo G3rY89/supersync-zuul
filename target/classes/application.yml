@@ -4,12 +4,7 @@ hystrix:
       execution:
         isolation:
           thread:
-            timeoutInMilliseconds: 60000
+            timeoutInMilliseconds: 15000
 ribbon:
-    ReadTimeout: 32000
-zuul:
-  ignoredServices: "*"
-  routes:
-    transactions-api-service: 
-    path: ks-supersync-unasapi/**
-    serviceId: ks-supersync-unasapi
+    ConnectTimeout: 10000
+    ReadTimeout: 15000
