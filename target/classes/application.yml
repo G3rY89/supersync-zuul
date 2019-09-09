@@ -2,8 +2,9 @@ hystrix:
   command:
     default:
       execution:
-        isolation:
-          thread:
-            timeoutInMilliseconds: 20000
+        timeout:
+          enabled: false
+
 ribbon:
-    ReadTimeout: 19000
+    ConnectTimeout: 5000
+    ReadTimeout: 5000
