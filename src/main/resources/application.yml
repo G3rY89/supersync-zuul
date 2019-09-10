@@ -8,7 +8,7 @@ ribbon:
   ConnectTimeout: 10000
   eureka:
     enabled: true
-unasapi:
+ks-supersync-unasapi:
   ribbon:
     listOfServers: https://unasapi.herokuapp.com/
 hystrix:
