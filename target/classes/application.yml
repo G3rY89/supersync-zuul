@@ -1,0 +1,5 @@
+zuul:
+  routes:
+    unasapi:
+      path: /ks-supersync-unasapi/**
+      serviceId: ks-supersync-unasapi
