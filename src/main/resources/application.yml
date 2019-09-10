@@ -3,3 +3,9 @@ zuul:
     unasapi:
       path: /ks-supersync-unasapi/**
       serviceId: ks-supersync-unasapi
+ribbon:
+  eureka:
+    enabled: false
+unasapi:
+  ribbon:
+    listOfServers: https://unasapi.herokuapp.com/
