@@ -3,6 +3,7 @@ zuul:
     unasapi:
       path: /ks-supersync-unasapi/**
       serviceId: ks-supersync-unasapi
+      strip-prefix: false
 ribbon:
   ReadTimeout: 10000
   ConnectTimeout: 10000
