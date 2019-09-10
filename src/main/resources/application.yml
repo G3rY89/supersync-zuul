@@ -1,7 +1,7 @@
 zuul:
   routes:
     unasapi:
-      path: /ks-supersync-unasapi/**
+      path: /**
       serviceId: ks-supersync-unasapi
       strip-prefix: false
 ribbon:
