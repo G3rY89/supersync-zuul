@@ -1,6 +1,6 @@
 ribbon:
-  ReadTimeout: 10000
-  ConnectTimeout: 10000
+  ReadTimeout: 15000
+  ConnectTimeout: 15000
 hystrix:
   command:
     ks-supersync-unasapi:
