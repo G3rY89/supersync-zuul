@@ -1,17 +1,6 @@
-zuul:
-  routes:
-    unasapi:
-      path: /**
-      serviceId: ks-supersync-unasapi
-      strip-prefix: false
 ribbon:
   ReadTimeout: 10000
   ConnectTimeout: 10000
-  eureka:
-    enabled: true
-ks-supersync-unasapi:
-  ribbon:
-    listOfServers: https://unasapi.herokuapp.com/
 hystrix:
   command:
     ks-supersync-unasapi:
