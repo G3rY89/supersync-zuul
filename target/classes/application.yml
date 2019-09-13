@@ -4,3 +4,8 @@ logging:
       springframework:
         cloud:
           netflix: trace
+zuul:
+  routes:
+    unasapi:
+      path: /getproducts_fromunas
+      serviceId: ks-supersync-unasapi
