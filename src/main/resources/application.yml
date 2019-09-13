@@ -7,5 +7,5 @@ logging:
 zuul:
   routes:
     unasapi:
-      path: /getproducts_fromunas
+      url: https://unasapi.herokuapp.com/
       serviceId: ks-supersync-unasapi
