@@ -6,6 +6,6 @@ logging:
           netflix: trace
 zuul:
   routes:
-    unasapi:
+    ks-supersync-unasapi:
       url: https://unasapi.herokuapp.com/
       serviceId: ks-supersync-unasapi
